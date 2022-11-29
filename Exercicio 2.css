@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    padding: 10px;
+    background-color: rgb(187, 187, 187);
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.card{
+background-color: white;
+padding: 20px;
+margin-top: 20px;
+}
+
+
+.button{
+    float: right;
+    display: block;
+}
+
+.button a{
+    cursor: pointer;
+    font-weight: 97;
+    background-color: #333;
+    color: white;
+    border-radius: 3px;
+    font-size: large;
+    font-family: Arial;
+}
+
+.button a:hover{
+    background-color: rgb(230, 230, 230);
+    color: #333;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(226, 224, 224);
+    margin-top: 20px;
+}
+
+
+
